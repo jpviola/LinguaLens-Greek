@@ -1,0 +1,33 @@
+{
+  "name": "lingualens",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@google/genai": "^1.48.0",
+    "@prisma/client": "^5.22.0",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "next": "^16.2.2",
+    "openai": "^6.33.0",
+    "postcss": "^8.5.8",
+    "prisma": "^5.22.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "simple-keyboard": "^3.8.125",
+    "simple-keyboard-layouts": "^3.4.188",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.2.2"
+  }
+}
